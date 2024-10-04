@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-mask {
+   
+    width: 100%;
+    /* height: 100%; */
+    /* transform: translate3d(20px, -100px, 100px); */
+    
+    pointer-events: none;
+    mask-image: linear-gradient(to right, rgb(255, 255, 255), rgb(52, 51, 51) 10%, rgb(52, 51, 51) 90%, rgba(255, 255, 255, 0));
+
+}
