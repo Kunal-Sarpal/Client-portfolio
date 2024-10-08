@@ -1,7 +1,7 @@
-#Business Portfolio Website
-##This repository contains the source code for a Business Portfolio Website built for an American client. The website is built using React and showcases the client’s business, services, and brand. It includes animations and is optimized for performance and SEO.
+# Business Portfolio Website
+## This repository contains the source code for a Business Portfolio Website built for an American client. The website is built using React and showcases the client’s business, services, and brand. It includes animations and is optimized for performance and SEO.
 
-#Table of Contents
+# Table of Contents
 Features
 Tech Stack
 Installation
@@ -10,7 +10,7 @@ Scripts
 Contributing
 License
 Features
-##Responsive Design: Optimized for all screen sizes (desktop, tablet, mobile).
+## Responsive Design: Optimized for all screen sizes (desktop, tablet, mobile).
 Smooth Animations: Using modern animation libraries for a professional touch.
 Fast Refresh: Leveraging Fast Refresh with React for seamless development.
 SEO Friendly: Optimized with appropriate meta tags and accessibility features.
@@ -26,33 +26,33 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-'''bash
+''' bash
 Copy code
 git clone https://github.com/yourusername/business-portfolio.git
-Navigate to the project directory:'''
+Navigate to the project directory: '''
 
 bash
 Copy code
 cd business-portfolio
 Install dependencies:
 
-'''bash
+''' bash
 Copy code
-npm install'''
+npm install '''
 Start the development server:
 
-'''bash
+''' bash
 Copy code
 npm run dev
-The app will be available at http://localhost:3000.'''
+The app will be available at http://localhost:3000. '''
 
 Usage
 Build for Production:
 
-'''bash
+``` bash
 Copy code
 npm run build
-This will create an optimized build in the dist/ folder.'''
+This will create an optimized build in the dist/ folder. ```
 
 Preview Production Build:
 
