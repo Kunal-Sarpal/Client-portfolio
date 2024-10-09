@@ -1,7 +1,9 @@
+import { Accordion } from '@mui/material';
 import React from 'react'
 import { ImBinoculars } from "react-icons/im";
 // import Typewriter from 'typewriter-effect/dist/core';
 import Typewriter from 'typewriter-effect';
+import Accordion1 from './Accordian1';
 
 
 
@@ -30,7 +32,15 @@ function Yellow() {
                     </h1>
                 </div>
                 
-               
+                <div>
+
+                <div>
+                <Accordion1/>
+
+                </div>
+              
+                </div>
+             
              
             </div>
         </div>

@@ -56,7 +56,7 @@ export default function Accordion1() {
             {/* Panel 1: Trucking Experience */}
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                    <Typography><h1 className='text-2xl font-normal text-zinc-700'>Who is Ramd?</h1></Typography>
+                    <Typography><h1 className='text-2xl font-normal text-zinc-700'>Who is Jowan?</h1></Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
