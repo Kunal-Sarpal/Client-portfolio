@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import LandinPage from './components/LandinPage'
 import { GoArrowUpRight } from "react-icons/go";
@@ -13,14 +13,15 @@ const locomotiveScroll = new LocomotiveScroll();
 
 
 function App() {
+ 
   return (
     <div className='w-full h-fit select-none '>
-      {/* <Navbar/>
+      <Navbar/>
       <LandinPage/>
       <Marque/>
       <Skiils/>
-      <Yellow/> */}
-      <Gsap1/>
+      <Yellow/>
+      {/* <Gsap1/> */}
     </div>
   )
 }

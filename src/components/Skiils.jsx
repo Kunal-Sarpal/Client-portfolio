@@ -8,6 +8,7 @@ import Accordion1 from './Accordian1';
 import Slider1 from './Slider1';
 import { Accordion, Button, Card, Paper, Typography } from '@mui/material';
 import { LinearGradient } from 'react-text-gradients';
+import Gridcollage from './Gridcollage';
 
 
 
@@ -106,13 +107,17 @@ function Skiils() {
     return (
         <div data-scroll data-scroll-speed="1" className=' z-[99999999] w-full h-screen text-md    font-bold  overflow-hidden  flex justify-center items-center  '>                    
             {/* Till here */}
-                <div className='w-[70%] h-full flex justify-end items-center'>  
-                    <div className='w-full h-fit '>
-                      <Paper elevation={2} sx={{padding:'20px', margin:'10px'}}>
-                        <LinearGradient className='text-6xl font-semibold flex w-full ' gradient={['to left', ' black ,#005d43']}>
-                            Study from Shivalik public School
+                <div className='w-[70%]  h-full flex justify-center items-center'>  
+                    <div className='w-full h-full  '>
+                      <Paper elevation={2} sx={{padding:'40px', margin:'10px'}}>
+                        <LinearGradient className='text-9xl font-bold flex w-full ' gradient={['to left', ' black ,#005d43']}>
+                            Bains,
+                            Trasnport
                         </LinearGradient>
-                        <Button variant='outlined'>Shivalik Public School</Button>
+                        <Paper elevation={"30px"}>
+                               {/* <Gridcollage/> */}
+                        </Paper>
+                       
                       </Paper>
                   
                   

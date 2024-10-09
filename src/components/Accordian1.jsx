@@ -56,11 +56,11 @@ export default function Accordion1() {
             {/* Panel 1: Trucking Experience */}
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                    <Typography><h1 className='text-2xl font-normal text-zinc-700'>Trucking Business in New York</h1></Typography>
+                    <Typography><h1 className='text-2xl font-normal text-zinc-700'>Who is Ramd?</h1></Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        With over 10 years of experience in the trucking industry, I specialize in logistics, fleet management, and providing top-tier service across New York. My business has grown to encompass multiple routes and clients in the region, offering safe and timely deliveries.
+                        I’m Jowan, a Entreprenuer. Ever since [describe how Ramd started his career or interest], I’ve been passionate about [his field]. With [mention experience or education], I’ve learned to master [skills or hobbies].
                     </Typography>
                 </AccordionDetails>
             </Accordion>
