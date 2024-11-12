@@ -53,7 +53,7 @@ function Slider1() {
     return (
         <div className="slider-container w-full relative shadow-xl">
             {/* Previous and Next Buttons */}
-            <div className="flex justify-between mb-4 absolute w-full z-50 h-fit top-1/2 p-2">
+            <div className="flex justify-between mb-4 absolute w-full z-50 h-fit top-1/2 p-2 cursor-none">
                 <IconButton color='primary' sx={{border:'1px solid white', background:"white"}}  variant='outlined' className=' shadow shadow-zinc-500 bg-slate-200 w-fit h-fit rounded-full overflow-hidden' onClick={previous}>
                     <ArrowBack/>
                 </IconButton>
@@ -64,22 +64,22 @@ function Slider1() {
             </div>
 
             <Slider ref={sliderRef} {...settings}>
-                <div className='h-fit object-fit p-2 rounded-md overflow-hidden' key={1}>
+                <div className='' key={1}>
                     <Card1 />
                 </div>
-                <div className='h-fit object-fit p-2 rounded-md overflow-hidden' key={2}>
+                <div className='' key={2}>
                     <Card1 />
                 </div>
-                <div className='h-fit object-fit p-2 rounded-md overflow-hidden' key={3}>
+                <div className='' key={3}>
                     <Card1 />
                 </div>
-                <div className='h-fit object-fit p-2 rounded-md overflow-hidden' key={4}>
+                <div className='' key={4}>
                     <Card1 />
                 </div>
-                <div className='h-fit object-fit p-2 rounded-md overflow-hidden' key={5}>
+                <div className='' key={5}>
                     <Card1 />
                 </div>
-                <div className='h-fit object-fit p-2 rounded-md overflow-hidden' key={6}>
+                <div className='' key={6}>
                     <Card1 />
                 </div>
             </Slider>

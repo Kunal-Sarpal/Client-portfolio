@@ -32,7 +32,7 @@ export default function Dialogbox() {
                 Slide in alert dialog
             </Button>
             <Dialog 
-            className='z-[999999999] absolute'
+            className='z-[99] absolute'
                 open={open}
                 TransitionComponent={Transition}
                 keepMounted

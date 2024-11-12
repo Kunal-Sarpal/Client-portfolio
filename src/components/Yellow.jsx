@@ -10,7 +10,7 @@ import Accordion1 from './Accordian1';
 
 function Yellow() {
     return (
-        <div data-scroll-speed="-.6" className='w-full z-[999] h-screen rounded-lg bg-[#cdea68] relative font-[Neue_Montreal]'>
+        <div  className='w-full z-[999] h-screen rounded-lg bg-[#cdea68] relative font-[Neue_Montreal]'>
             <div className='w-full h-full grid grid-rows-12 p-10 font-[Neue_Montreal] relative'>
                 <div className='row-span-4 text-5xl'>
                     <h1 className='text-start px-5 text-[#212121] font-[Neue_Montreal] text-2xl'>

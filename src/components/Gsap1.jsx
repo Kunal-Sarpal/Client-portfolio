@@ -28,7 +28,7 @@ function Gsap1() {
     }
 
     return (
-        <div className="w-full h-screen flex justify-center items-center" onMouseMove={mouseMove}>
+        <div className="w-full h-screen flex justify-center items-center " onMouseMove={mouseMove}>
             {/* Container */}
             <div  className=" cursor-none w-96 h-96 border-2 border-red-700 relative">
                 {/* Animated cursor */}

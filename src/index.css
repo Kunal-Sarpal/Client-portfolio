@@ -12,3 +12,52 @@
     mask-image: linear-gradient(to right, rgb(255, 255, 255), rgb(52, 51, 51) 10%, rgb(52, 51, 51) 90%, rgba(255, 255, 255, 0));
 
 }
+
+/* index.css */
+/* @import 'leaflet/dist/leaflet.css'; */
+
+/* Optional: Customize the map container to make it rounded */
+.rounded-map {
+    /* border-radius: 50%; */
+    /* Makes the map circular */
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Adds a shadow for style */
+}
+/* index.css or custom CSS file */
+
+.rounded-map {
+    /* border-radius: 50%; */
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-popup .leaflet-popup-tip-container {
+    display: none;
+    /* Hides the default popup arrow */
+}
+
+.popup-box {
+    position: relative;
+    font-size: 14px;
+    color: #333;
+}
+
+.popup-box::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #f8f9fa transparent transparent transparent;
+}

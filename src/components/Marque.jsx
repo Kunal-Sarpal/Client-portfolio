@@ -5,7 +5,7 @@ import "../index.css";
 
 function Marque() {
   return (
-    <div className='z-[9999] w-full' data-scroll data-scroll-speed="-1.4" >
+    <div className='z-[9999] w-full'  >
 
       {/* <LinearGradient gradient={['to left', '#353535 ,#005d43']}>
         {item}
