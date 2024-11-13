@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import Slider from 'react-slick';
-import Card1 from './Card1';
+import Card1, { Card2 } from './Card1';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button, Icon, IconButton } from '@mui/material';
@@ -68,20 +68,9 @@ function Slider1() {
                     <Card1 />
                 </div>
                 <div className='' key={2}>
-                    <Card1 />
+                    <Card2 />
                 </div>
-                <div className='' key={3}>
-                    <Card1 />
-                </div>
-                <div className='' key={4}>
-                    <Card1 />
-                </div>
-                <div className='' key={5}>
-                    <Card1 />
-                </div>
-                <div className='' key={6}>
-                    <Card1 />
-                </div>
+               
             </Slider>
         </div>
     );

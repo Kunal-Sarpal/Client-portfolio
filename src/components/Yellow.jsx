@@ -1,50 +1,58 @@
-import { Accordion } from '@mui/material';
-import React from 'react'
-import { ImBinoculars } from "react-icons/im";
-// import Typewriter from 'typewriter-effect/dist/core';
-import Typewriter from 'typewriter-effect';
-import Accordion1 from './Accordian1';
+import React from 'react';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
-
-
-
-function Yellow() {
+function Footer() {
     return (
-        <div  className='w-full z-[999] h-screen rounded-lg bg-[#cdea68] relative font-[Neue_Montreal]'>
-            <div className='w-full h-full grid grid-rows-12 p-10 font-[Neue_Montreal] relative'>
-                <div className='row-span-4 text-5xl'>
-                    <h1 className='text-start px-5 text-[#212121] font-[Neue_Montreal] text-2xl'>
-                        <Typewriter
-                            options={{
-                                strings: [
-                                    "You can't get there by bus, only by hard work and risk and by not quite knowing what you're doing. What you'll discover will be wonderful. What you'll discover will be yourself.",
-                                    "I am who I am today because of the choices I made yesterday.",
-                                    "Hard work spotlights the character of people: some turn up their sleeves, some turn up their noses, and some don’t turn up at all.",
-                                    "Whatever we believe about ourselves and our ability comes true for us."
-                                ],
-                                autoStart: true,
-                                loop: true,
-                                delay: 50,
-                                deleteSpeed: 30,
-                                pauseFor: 3000,
-                            }}
-                        />
-                    </h1>
-                </div>
-                
-                <div>
+        <div className="bg-[#212121] text-white py-8 mt-10">
+            <div className="container mx-auto px-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {/* Footer Left: Company Info */}
+                    <div className="flex flex-col items-center md:items-start">
+                        <h2 className="text-3xl font-bold text-[#cdea68] mb-3">YourCompany</h2>
+                        <p className="text-sm text-gray-400 text-center md:text-left">
+                            A company driven by passion and innovation. We create solutions that impact industries and shape the future.
+                        </p>
+                    </div>
 
-                <div>
-                <Accordion1/>
+                    {/* Footer Center: Useful Links */}
+                    <div className="flex flex-col items-center md:items-start">
+                        <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
+                        <ul className="text-sm text-gray-400 space-y-2">
+                            <li><a href="/about" className="hover:text-[#cdea68] transition duration-300">About Us</a></li>
+                            <li><a href="/services" className="hover:text-[#cdea68] transition duration-300">Our Services</a></li>
+                            <li><a href="/portfolio" className="hover:text-[#cdea68] transition duration-300">Portfolio</a></li>
+                            <li><a href="/contact" className="hover:text-[#cdea68] transition duration-300">Contact</a></li>
+                            <li><a href="/privacy" className="hover:text-[#cdea68] transition duration-300">Privacy Policy</a></li>
+                        </ul>
+                    </div>
 
+                    {/* Footer Right: Social Media Icons */}
+                    <div className="flex flex-col items-center md:items-start">
+                        <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
+                        <div className="flex space-x-4 text-2xl text-gray-400">
+                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <FaFacebook className="hover:text-[#cdea68] transition duration-300" />
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                <FaTwitter className="hover:text-[#cdea68] transition duration-300" />
+                            </a>
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <FaInstagram className="hover:text-[#cdea68] transition duration-300" />
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <FaLinkedin className="hover:text-[#cdea68] transition duration-300" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              
+
+                {/* Footer Bottom: Copyright */}
+                <div className="text-center mt-6 text-sm text-gray-400">
+                    <p>&copy; {new Date().getFullYear()} YourCompany. All rights reserved.</p>
                 </div>
-             
-             
             </div>
         </div>
     );
 }
 
-export default Yellow
+export default Footer;
