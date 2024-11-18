@@ -8,7 +8,7 @@ function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Footer Left: Company Info */}
                     <div className="flex flex-col items-center md:items-start">
-                        <h2 className="text-3xl font-bold text-[#cdea68] mb-3">YourCompany</h2>
+                        <h2 className="text-3xl font-bold text-[#cdea68] mb-3">Bains Transport</h2>
                         <p className="text-sm text-gray-400 text-center md:text-left">
                             A company driven by passion and innovation. We create solutions that impact industries and shape the future.
                         </p>
@@ -48,7 +48,7 @@ function Footer() {
 
                 {/* Footer Bottom: Copyright */}
                 <div className="text-center mt-6 text-sm text-gray-400">
-                    <p>&copy; {new Date().getFullYear()} YourCompany. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} any. All rights reserved.</p>
                 </div>
             </div>
         </div>
