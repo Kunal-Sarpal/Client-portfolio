@@ -1,6 +1,6 @@
 # Business Portfolio Website
 
-```https:jowanbains.in```
+```[https://jowanbains.in]```
 
 ## Overview
 This repository contains the source code for a Business Portfolio Website built for an American client. The website is developed using React and showcases the client’s business, services, and brand. It includes animations and is optimized for performance and SEO.
